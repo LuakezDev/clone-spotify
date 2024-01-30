@@ -27,12 +27,6 @@ Instale as dependências:
 bash
 Copy code
 npm install
-Configuração
-Crie um arquivo .env na raiz do projeto e configure as variáveis de ambiente necessárias:
-env
-Copy code
-REACT_APP_SPOTIFY_API_KEY=your_api_key
-REACT_APP_MONGODB_URI=your_mongodb_uri
 Uso
 Inicie o servidor:
 bash
