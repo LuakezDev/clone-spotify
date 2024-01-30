@@ -1,55 +1,115 @@
-/* Reset CSS */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 100%;
-    line-height: 1;
-    font-family: inherit;
-    vertical-align: baseline;
-   
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
-
-
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
-    display: block;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul, ol {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-	color: inherit;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
-    line-height: 1;
-    background: #000;
-    font-family: var(--font-dm-sans);
-  }
-
-/* Set the viewport to make sure elements aren't scaled in mobile browsers */
-@viewport {
-    width: device-width;
+  line-height: 1;
+  background: #000;
+  font-family: var(--font-dm-sans);
 }
 
-/* Box sizing reset */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-/* Clearfix hack */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+ol,
+ul {
+  list-style: none;
 }
 
 blockquote,
