@@ -13,7 +13,7 @@ Certifique-se de ter as seguintes ferramentas instaladas antes de executar o pro
 
 Node.js - Versão x.x.x
 npm - Gerenciador de pacotes para Node.js
-MongoDB - Banco de dados (opcional, se aplicável)
+
 Instalação
 Clone o repositório:
 bash
@@ -42,7 +42,7 @@ Abra o navegador e acesse http://localhost:3000.
 
 Explore as funcionalidades da aplicação.
 
-Contribuição
+<h1>Contribuição</h1>
 Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos:
 
 Faça um fork do repositório
