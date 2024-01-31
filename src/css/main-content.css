@@ -25,7 +25,7 @@
 }
 
 .header__navigation .navigation .arrow-left {
-  margin-right: 1.25rem;
+  margin-right: 1.09375rem;
 }
 
 .arrow-left,
@@ -33,8 +33,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background: var(--bg-icon);
   background-color:var(--bg-arrow-color);
   border-radius: 50%;
@@ -50,83 +50,92 @@
 .header__search {
   display: flex;
   align-items: center;
-  width: 364px;
-  height: 48px;
+  width: 22.75rem;
+  height: 3rem;
   margin-left: 8px;
   background-color: #242424;
-  border-radius: 500px;
-  border: 1px solid transparent;
+  border-radius: 31.25rem;
+  border: 0.0625rem solid transparent;
 }
 
 .header__search img {
-  width: 16px;
-  height: 16px;
-  margin-left: 10px;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1.25rem;
 }
 
 .header__search input {
   background: transparent;
   border: none;
-  padding: 0px 100px 0 12px;
+  padding: 0 6.25rem 0 0.75rem;
   color: #fff;
   text-overflow: ellipsis;
-  overflow:hidden;
-  white-space: nowrap;
+  /*overflow:hidden;
+  white-space: nowrap;*/
   outline: none;
 }
 
 .header__login .subscribe {
-  color: #a7a7a7;
-  font-size: 16px;
+  color: var(--text-sub);
+  font-size: 1rem;
   font-weight: 700;
   background-color: transparent;
-  margin-right: 32px;
+  margin-right: 2rem;
 }
 
 .header__login .login {
-  width: 100px;
-  height: 48px;
-  color: #000;
-  font-size: 16px;
+  width: 6.25rem; /* 100px para rem */
+  height: 3rem; /* 48px para rem */
+  color: var(--text-base-dark);
+  font-size: 1rem; /* 16px para rem */
   font-weight: 700;
-  border-radius: 40px;
+  border-radius: 2.5rem; /* 40px para rem */
+}
+
+.header__search:hover {
+  border: 0.0625rem solid #fff; /* 1px para rem */
+}
+
+.header__login .subscribe:hover,
+.header__login .login:hover {
+  transform: scale(1.04);
 }
 
 /* PLAYLIST */
 .playlist-container {
-height: 68vh;
-padding-top: 16px;
-margin: 10px;
-border-radius: 10px;
-/*background-color: #121212;*/
+  height: 72vh;
+  padding-top: 1rem;
+  margin: 1.25rem; /* 20px para rem */
+  border-radius: 0.625rem; /* 10px para rem */
+  background-color: #121212;
 }
 
 .playlist {
-margin: 24px;
+margin: 3rem;
 }
 
 .playlist #greeting {
-color: #fff;
-font-size: 32px;
-font-weight: 700;
-margin-bottom: 48px;
+  color: var(--text-base-light);
+  font-size: 2rem; /* 32px para rem */
+  font-weight: 700;
+   margin-bottom: 3rem; /* 48px para rem */
 }
 
 .playlist .session {
-color: #fff;
-font-size: 24px;
-font-weight: 700;
+  color: var(--text-base-light);
+  font-size: 1.5rem; /* 24px para rem */
+  font-weight: 700;
 }
 
 /* SCROLL */
 .offer__scroll-container {
-max-height: 43vh;
-margin: 24px;
+max-height: 52vh;
+margin: 3rem;
 overflow-y: auto;
 }
 
 .offer__scroll-container::-webkit-scrollbar {
-width: 1px;
+width: 0.0625rem;
 }
 
 .offer__scroll-container::-webkit-scrollbar-thumb {
@@ -138,9 +147,8 @@ background-color: transparent;
 display: grid;
 justify-items: center;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-gap: 16px;
-gap: 16px;
-margin-bottom: 16px;
+gap: 1rem;
+margin-bottom: 1rem;
 
 /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
 display: grid;
@@ -151,17 +159,17 @@ margin: 0 auto;
 
 .cards {
 position: relative; 
-width: 220px;
-height: 200px;
+width: 13.75rem;
+height: 15.5rem;
 overflow: hidden;
-border-radius: 8px;
+border-radius: 0.5rem;
 }
 
 .cards span {
-padding: 16px;
+padding: 1rem;
 position: absolute;
-color: #fff;
-font-size: 24px;
+color: var(--text-base-light);
+font-size: 1.5rem;
 font-weight: 700;
 }
 
