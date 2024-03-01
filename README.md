@@ -43,4 +43,4 @@ Faça um fork do repositório
 Crie uma nova branch: git checkout -b feature/nova-feature
 Faça commit das suas mudanças: git commit -am 'Adicione uma nova feature'
 Faça push para a branch: git push origin feature/nova-feature
-Abra um pull request
+Abra um pull request .
